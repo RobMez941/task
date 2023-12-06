@@ -1,0 +1,14 @@
+.container {
+    display: felx;
+}
+
+.worldMap {
+    flex: 1;
+    padding: 20px;
+}
+
+.infoColumn {
+    flex: 1;
+    padding: 20px; 
+    border-left: 1px solid #ccc
+}

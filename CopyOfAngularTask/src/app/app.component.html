@@ -1,0 +1,19 @@
+<div class="container">    
+  <div class="worldMap">
+    <app-world-map></app-world-map>
+  </div>
+  <div class="infoColumn">
+    <h1>Country Information:</h1>
+    <div *ngIf="data.name !== ''">
+      <p>Name: {{ data.name }}</p>
+      <p>Capital: {{ data.capitalCity }}</p>
+      <p>Income: {{ data.income }}</p>
+      <p>Region: {{ data.region }}</p>
+      <p>Latitude: {{ data.latitude }}</p>
+      <p>Longitude: {{ data.longitude }}</p>
+    </div>
+  </div>
+</div>
+
+  
+  
